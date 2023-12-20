@@ -9,6 +9,7 @@
 @import "./footer.css";
 
 :root { 
+  scroll-behavior: smooth;
   --primary: #310a90; 
   --gradient: linear-gradient(45deg, #fad7a1 0%, #e96d71 100%); 
   --white: #ffffff; 

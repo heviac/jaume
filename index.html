@@ -10,6 +10,31 @@
   <link rel="preload" href="./css/index.css" as="style">
   <link rel="stylesheet" href="./css/index.css">
   <title>Portafolio de Jaume</title>
+
+  <meta property="og:title" content="Portafolio de Jaume" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://heviac.github.io/jaume/" />
+  <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
+  <meta property="og:description" content="Landing page Portafolio creada solo con HTML y CSS" />
+  <meta property="og:locale" content="es_MX" />
+
+  <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 <body class="body">
   <div class="wrapper">
@@ -21,8 +46,8 @@
       <nav class="header-list">
         <ul class="header-content">
           <li class="header-item"><a class="is-active" href="">Hola</a></li>
-          <li class="header-item"><a href="">Proyectos</a></li>
-          <li class="header-item"><a href="">Hablemos</a></li>
+          <li class="header-item"><a href="#portfolio">Proyectos</a></li>
+          <li class="header-item"><a href="#form">Hablemos</a></li>
         </ul>
       </nav>
       <button class="button is-primary">
@@ -65,7 +90,7 @@
       <img class="projects-icon" src="./icons/icons-down.svg" alt="" width="80" height="80">
     </div>
 
-    <div class="mention">
+    <div class="mention" id="portfolio">
       <div class="mention-cover">
         <img src="./images/img.png" alt="">
       </div>
@@ -157,7 +182,7 @@
       </div>
     </div>
 
-    <form class="form" action="">
+    <form class="form" action="" id="form">
       <div class="form-link">
         <a href="">hablemos</a>
       </div>
